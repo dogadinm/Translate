@@ -6,7 +6,8 @@ def main():
 
 def input_data():
 
-            print(f"\nEnter languages in abbreviated form (en, fr , cs , ru ) or in full (English, French, Czech, Russian)\n")
+            print(f"\nEnter languages in abbreviated form (en, fr , cs , ru ) or in full (English, French, Czech, Russian)\n"
+                 f"All abbreviation here: https://meta.wikimedia.org/wiki/Template:List_of_language_names_ordered_by_code\n"))
 
             from_lang = input("What language do you want to translate from: ")
             to_lang = input("What language do you want to translate into: ")
